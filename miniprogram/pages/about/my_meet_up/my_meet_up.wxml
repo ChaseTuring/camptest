@@ -1,0 +1,9 @@
+<!-- <view class="container">
+  <button bindtap="onTapSpo">我发起的</button>
+  <button bindtap="onTapJoi">我参加的</button>
+</view> -->
+
+<view class="container">
+  <button style="border:solid 1px #cccccc;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="onTapSpo">我发起的</button>
+  <button style="border:solid 1px #cccccc;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="onTapJoi">我参加的</button>
+</view>

@@ -1,0 +1,40 @@
+<!-- <button bindtap="onTap" hidden="{{!hid}}">查看（单击此处）</button>
+<view wx:for="{{list}}">
+  <form class="container1" bindsubmit="oncheck">
+      <input name="time" disabled="true" value="{{item.time}}"/>
+      <input name="position" disabled="true" value="{{item.position}}"/>
+      <textarea name="description" disabled="true" value="{{item.description}}"/>
+    <button formType="submit">查看详情</button>
+  </form>
+</view>
+<view>
+  <button bindtap="up" hidden="{{hid}}">上一页</button>
+  <button bindtap="down" hidden="{{hid}}">下一页</button>
+</view> -->
+
+
+
+<!-- new -->
+<view wx:for="{{list}}" class="bg-white margin-top padding">
+  <form class="container1" bindsubmit="oncheck">
+      <view class="cu-form-group solid-bottom">
+        <input name="time" disabled="true" value="{{item.time}}"/>
+      </view>
+      <view class="cu-form-group">
+        <input name="position" disabled="true" value="{{item.position}}"/>
+      </view>
+      <view>
+        <textarea name="description" disabled="true" value="{{item.description}}"/>
+      </view>
+      <view class="padding flex flex-direction">
+        <button formType="submit" class="cu-btn">
+          <text class="cuIcon-group"> </text> 查看详细
+        </button>
+      </view>
+  </form>
+</view>
+<view class="cu-btn padding bg-white">
+  <button bindtap="up" hidden="{{hid}}">上一页</button>
+  <button bindtap="down" hidden="{{hid}}">下一页</button>
+</view>
+<view class="cu-bar margin-top"></view>

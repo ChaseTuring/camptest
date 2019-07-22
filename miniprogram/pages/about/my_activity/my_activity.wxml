@@ -1,0 +1,22 @@
+<!-- <button bindtap="onTap">查看（单击此处）</button> -->
+<view wx:for="{{list}}" class="bg-white margin-top padding">
+  <form class="container1" bindsubmit="onJoi">
+      <view class="cu-form-group solid-bottom">
+        <view class="title">时间</view>
+        <input name="time" disabled="true" value="{{item.time}}"/>
+      </view>
+      <view class="cu-form-group">
+        <view class="title">地点</view>
+        <input name="position" disabled="true" value="{{item.position}}"/>
+      </view>
+      <view class="cu-form-group text-bold">详细</view>
+      <view>
+        <textarea name="description" disabled="true" value="{{item.description}}"/>
+      </view>
+  </form>
+</view>
+<view class="cu-btn margin-top footer bg-white">
+  <button bindtap="up" hidden="{{hid}}">上一页</button>
+  <button bindtap="down" hidden="{{hid}}">下一页</button>
+</view>
+<view class="cu-bar margin-top"></view>

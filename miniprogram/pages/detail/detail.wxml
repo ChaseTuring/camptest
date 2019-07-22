@@ -1,0 +1,29 @@
+<!-- <view wx:for="{{list}}">
+      <view>姓名</view>
+      <input name="name" disabled="true" value="{{item.name}}"/>
+      <view>qq号</view>
+      <input name="qqnum" disabled="true" value="{{item.qqnum}}"/>
+</view>
+<view>
+  <button bindtap="up" hidden="{{hid}}">上一页</button>
+  <button bindtap="down" hidden="{{hid}}">下一页</button>
+</view> -->
+
+<!-- new -->
+<view wx:for="{{list}}" class="bg-white margin-top padding">
+  <form class="container1" bindsubmit="onJoi">
+      <view class="cu-form-group solid-bottom">
+        <view class="title">姓名</view>
+        <input name="time" disabled="true" value="{{item.name}}"/>
+      </view>
+      <view class="cu-form-group">
+        <view class="title">QQ号</view>
+        <input name="position" disabled="true" value="{{item.qqnum}}"/>
+      </view>
+  </form>
+</view>
+<view class="cu-btn padding bg-white">
+  <button bindtap="up" class="radius" hidden="{{hid}}">上一页</button>
+  <button bindtap="down" class="radius" hidden="{{hid}}">下一页</button>
+</view>
+<view class="cu-bar margin-top"></view>

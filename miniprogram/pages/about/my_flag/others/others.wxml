@@ -1,0 +1,30 @@
+<!-- <button bindtap="onTap" hidden="{{!hid}}">查看（单击此处）</button>
+<view wx:for="{{list}}">
+      <input name="time" disabled="true" value="{{item.time}}"/>
+      <textarea name="description" disabled="true" value="{{item.description}}"/>
+</view>
+<view>
+  <button bindtap="up" hidden="{{hid}}">上一页</button>
+  <button bindtap="down" hidden="{{hid}}">下一页</button>
+</view> -->
+
+
+<view wx:for="{{list}}" class="bg-white margin-top padding">
+  <form class="container1" bindsubmit="ondelete">
+
+      <view class="cu-form-group">
+        <view class="title">时间限制</view>
+        <input name="time" disabled="true" value="{{item.time}}"/>
+      </view>
+      <view class="cu-form-group text-bold">flag详细</view>
+      <view>
+        <textarea name="description" disabled="true" value="{{item.description}}"/>
+      </view>
+    <button formType="submit">删除</button>
+  </form>
+</view>
+<view class="cu-btn margin-top footer bg-white">
+  <button bindtap="up" hidden="{{hid}}">上一页</button>
+  <button bindtap="down" hidden="{{hid}}">下一页</button>
+</view>
+<view class="cu-bar margin-top"></view>

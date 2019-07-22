@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/activity/activity",
+    "pages/flag/flag",
+    "pages/meet up/meet up",
+    "pages/about/about",
+    "pages/activity/sponsor/sponsor",
+    "pages/activity/join in/join in",
+    "pages/flag/sponsor/sponsor",
+    "pages/flag/join in/join in",
+    "pages/meet up/sponsor/sponsor",
+    "pages/meet up/join in/join in",
+    "pages/about/my_activity/my_activity",
+    "pages/about/my_flag/my_flag",
+    "pages/about/my_meet_up/my_meet_up",
+    "pages/about/my_meet_up/sponsor/sponsor",
+    "pages/about/my_meet_up/join in/join in",
+    "pages/detail/detail",
+    "pages/flag/sponsor/others/others",
+    "pages/flag/sponsor/myself/myself",
+    "pages/flag/join in/others/others",
+    "pages/flag/join in/myself/myself",
+    "pages/about/my_flag/others/others",
+    "pages/about/my_flag/myself/myself",
+    "pages/load/load",
+    "pages/feedback/feedback"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "images/activity2.png",
+        "selectedIconPath": "images/activity.png"
+      },
+      {
+        "pagePath": "pages/flag/flag",
+        "text": "flag",
+        "iconPath": "images/flag2.png",
+        "selectedIconPath": "images/flag.png"
+      },
+      {
+        "pagePath": "pages/meet up/meet up",
+        "text": "约会",
+        "iconPath": "images/meet up2.png",
+        "selectedIconPath": "images/meet up.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我的",
+        "iconPath": "images/my2.png",
+        "selectedIconPath": "images/my.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "wannafly-camp",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

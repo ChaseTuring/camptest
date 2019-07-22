@@ -1,0 +1,13 @@
+<view class="container">
+  <image src="/images/wannafly.jpg" class="about-banner"></image>
+  <view hidden="{{hide}}">已登录</view>
+  <button style="border:1px #cccccc dotted;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="Onac">My activity</button>
+  <button style="border:1px #cccccc dotted;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="Onflag">My flag</button>
+  <button style="border:1px #cccccc dotted;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="Onmeet">My meet up</button>
+</view>
+<view>
+  <button style="border:1px #cccccc dotted;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="Onload">登录</button>
+</view>
+<view>
+  <button style="border:1px #cccccc dotted;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="Onfed">意见反馈</button>
+</view>

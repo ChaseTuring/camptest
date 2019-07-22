@@ -1,0 +1,21 @@
+<!-- <view class="container">
+  <button bindtap="onTapSpo">发起flag</button>
+  <button bindtap="onTapJoi">查看flag</button>
+</view> -->
+
+<image src="/images/wannafly.jpg"  class="about-banner" style="width:100%;" mode="aspcetFill"></image>
+<view class="" style="margin-top:20%;" >
+  <view class="padding flex flex-direction margin-top">
+    <button class="cu-btn bg-green lg" bindtap="onTapSpo">
+      <view class="content">发起flag</view>
+      <text class="cuIcon-right"></text> 
+    </button>
+  </view>
+
+  <view class="padding flex flex-direction ">
+    <button class="cu-btn bg-green lg" bindtap="onTapJoi">
+      <view class="content" >查看flag</view>
+      <text class="cuIcon-right"></text> 
+    </button>
+  </view>
+</view>

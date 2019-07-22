@@ -1,0 +1,9 @@
+<!-- <view class="container">
+  <button bindtap="onTapSpo">给别人立的flag</button>
+  <button bindtap="onTapJoi">给自己立的flag</button>
+</view> -->
+
+<view class="container">
+  <button style="border:solid 1px #cccccc;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="onTapSpo">给别人立的flag</button>
+  <button style="border:solid 1px #cccccc;width:200px; margin-top:10rpx;padding:10rpx;" class="bg-white round" bindtap="onTapJoi">给自己立的flag</button>
+</view>
